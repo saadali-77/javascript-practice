@@ -1,3 +1,4 @@
-const array= [1,4,5,7,43]
-const Ab= array.splice(1)
-console.log(Ab)
+function Greet(params,callback) {
+    callback(`hello, ${params}`)
+}
+Greet('saad',message=>console.log(message))
