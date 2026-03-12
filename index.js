@@ -1,3 +1,11 @@
-const New= [1,2,3]
- const Ran=New.reduce((a,b)=>a +b )
- console.log(Ran)
+function Name(num){
+    if(num<=1) return false
+    for(let i=2;i<num;i++){
+      {
+        if(num %i=== 0) return false
+      }  
+      return true
+    }
+    
+}
+console.log(Name(1))
