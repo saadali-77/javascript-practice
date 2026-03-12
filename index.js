@@ -1,4 +1,5 @@
 function Name(params) {
-    return params.split('').reverse().join('')
+    const reverse= params.split('').reverse().join('')
+    return params === reverse
 }
-console.log(   Name('ammyvirk'))
+console.log(   Name('gfg'))
