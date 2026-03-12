@@ -1,4 +1,3 @@
-function Greet(params,callback) {
-    callback(`hello, ${params}`)
-}
-Greet('saad',message=>console.log(message))
+const obj={name:'saad'}
+obj.age=15
+console.log(obj)
