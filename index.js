@@ -1,3 +1,3 @@
-const obj={name:'saad'}
-obj.age=15
+const obj={name:'saad',age:12}
+delete obj.age
 console.log(obj)
