@@ -1,3 +1,3 @@
-const obj={name:'saad',age:12}
-delete obj.age
-console.log(obj)
+const New= [1,2,3]
+ const Ran=New.reduce((a,b)=>a +b )
+ console.log(Ran)
