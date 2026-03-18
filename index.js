@@ -1,16 +1,12 @@
-function X(){
-    let a= 8;
-    function Y(){
-        console.log(a++)
-    }
-     return Y
+// function statement 
+function A(){
+    console.log('hello world')
 }
- const Z=  X()
- Z()
- Z()
- 
- 
-
+A()
+// function expression
+let B= ()=>{
+    console.log('hello world b')
+}
 
 
 
