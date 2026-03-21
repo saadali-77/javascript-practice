@@ -1,13 +1,23 @@
-// function statement 
-function A(){
-    console.log('hello world')
+const radius=[3,2,1,4]
+
+const area= (radius)=>{
+    return Math.PI * radius * radius ;
 }
-A()
-// function expression
-let B= ()=>{
-    console.log('hello world b')
+const circumfrence= (radius)=>{
+return 2 * Math.PI *radius
 }
 
+const CalculateArea= (radius,logic)=>{
+    const arr=[]
+    for(let i=0;i<radius.length;i++){
+   arr.push(logic(radius[i]))
+    }
+    return arr;
+
+}
+
+ console.log( CalculateArea(radius,area))
+ console.log( CalculateArea(radius,circumfrence))
 
 
 
