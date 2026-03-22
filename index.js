@@ -1,23 +1,12 @@
 const radius=[3,2,1,4]
 
-const area= (radius)=>{
-    return Math.PI * radius * radius ;
-}
-const circumfrence= (radius)=>{
-return 2 * Math.PI *radius
-}
-
-const CalculateArea= (radius,logic)=>{
-    const arr=[]
-    for(let i=0;i<radius.length;i++){
-   arr.push(logic(radius[i]))
+const output= radius.reduce((acc,curr)=>{
+    if(curr>acc){
+        acc= curr
     }
-    return arr;
-
-}
-
- console.log( CalculateArea(radius,area))
- console.log( CalculateArea(radius,circumfrence))
+    return acc
+})
+console.log(output)
 
 
 
