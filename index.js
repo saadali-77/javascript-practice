@@ -1,12 +1,44 @@
-const radius=[3,2,1,4]
 
-const output= radius.reduce((acc,curr)=>{
-    if(curr>acc){
-        acc= curr
-    }
-    return acc
-})
-console.log(output)
+const Git= 'https://github.com/users/saadali-77'
+ const User= fetch(Git)
+ console.log(User)
+ User.then((data)=>{
+    console.log(data)
+ })
+// 1 promiseall
+// run fo all give output collectively and find first error and return
+// 2 promisesettled
+// run for all and give error and response in array at the end
+// 3 promiserace
+// in it it will give which come first and return
+// 4 promiseany
+// it just need atleast one response to succed
+
+
+
+
+
+
+// var a=5
+// function New(){
+//     console.log(a)
+//     var a=10;
+
+// }
+// const NB=New()
+// console.log(NB)
+
+
+
+// const radius=[3,2,1,4]
+
+// const output= radius.reduce((acc,curr)=>{
+//     if(curr>acc){
+//         acc= curr
+//     }
+//     return acc
+// })
+// console.log(output)
 
 
 
