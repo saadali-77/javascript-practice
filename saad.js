@@ -1,17 +1,40 @@
-const a= 'ddaani';
-const freq= {};
 
-function New(){
-for (let i of a){
-    freq[i]=( freq[i] ||0)+ 1
+function Repeated(str){
+return str.split(' ').reduce((longest,current)=>{
+    return current.length > longest.length ? current : longest
+})
+
 }
-for(let i of a){
-    if(freq[i]===1){
-     return i
-    }
-}
-}
-console.log(New('ddaani'))
+console.log(Repeated("i am javascript developers"))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const a= 'ddaani';
+// const freq= {};
+
+// function New(){
+// for (let i of a){
+//     freq[i]=( freq[i] ||0)+ 1
+// }
+// for(let i of a){
+//     if(freq[i]===1){
+//      return i
+//     }
+// }
+// }
+// console.log(New('ddaani'))
 
 
 
