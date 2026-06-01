@@ -1,11 +1,25 @@
+const a= 'i am frontend developers';
+const b= a.split(' ').map(word=>word.charAt(0).toUpperCase()+ word.slice(1))
 
-function Repeated(str){
-return str.split(' ').reduce((longest,current)=>{
-    return current.length > longest.length ? current : longest
-})
+console.log(b)
 
-}
-console.log(Repeated("i am javascript developers"))
+
+
+
+
+
+
+
+
+
+
+// function Repeated(str){
+// return str.split(' ').reduce((longest,current)=>{
+//     return current.length > longest.length ? current : longest
+// })
+
+// }
+// console.log(Repeated("i am javascript developers"))
 
 
 
