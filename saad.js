@@ -1,8 +1,14 @@
 
+const a= [1,2,3]
+const b= [4,5,6]
+const c=a.concat(b)
+console.log(c)
 
-const a= [1,3,4,2,8,9,5,6]
-const b= a.sort((a,b)=>a-b)
-console.log(b)
+
+
+// const a= [1,3,4,2,8,9,5,6]
+// const b= a.sort((a,b)=>a-b)
+// console.log(b)
 
 
 
@@ -29,16 +35,16 @@ console.log(b)
 
 
 
-function factorial(n){
-    let answer=1
-    for(let i=1; i<=n; i++){
-        answer *= i
-    }
-    return answer
+// function factorial(n){
+//     let answer=1
+//     for(let i=1; i<=n; i++){
+//         answer *= i
+//     }
+//     return answer
 
-}
+// }
 
-console.log(factorial(5))
+// console.log(factorial(5))
 
 
 
