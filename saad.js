@@ -1,9 +1,24 @@
+const a= [1,2,3,4,5]
 
-const a=[1,2,3,4]
-const b= [3,4,5,6]
-const c= new Set(a)
-const d= b.filter(x=>c.has(x))
-console.log(d)
+function Max(arr){
+let max= arr[0]
+for(let i=1; i<arr.length; i++){
+    if(arr[i]>max){
+        max= arr[i]
+    }
+}
+return max;
+}
+ console.log(Max(a))
+// const a= [1,3,4,5,]
+// const b= [3,4,6,7]
+// const c= [...new Set([...a,...b])]
+// console.log(c)
+// const a=[1,2,3,4]
+// const b= [3,4,5,6]
+// const c= new Set(a)
+// const d= b.filter(x=>c.has(x))
+// console.log(d)
 
 
 // const a= [1,2,3]
