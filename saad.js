@@ -1,15 +1,38 @@
-const a= [1,2,3,4,5]
+const a= 'ddaani';
+const freq= {};
 
-function Max(arr){
-let max= arr[0]
-for(let i=1; i<arr.length; i++){
-    if(arr[i]>max){
-        max= arr[i]
+function New(){
+for (let i of a){
+    freq[i]=( freq[i] ||0)+ 1
+}
+for(let i of a){
+    if(freq[i]===1){
+     return i
     }
 }
-return max;
 }
- console.log(Max(a))
+console.log(New('ddaani'))
+
+
+
+
+
+
+
+
+
+// const a= [1,2,3,4,5]
+
+// function Max(arr){
+// let max= arr[0]
+// for(let i=1; i<arr.length; i++){
+//     if(arr[i]>max){
+//         max= arr[i]
+//     }
+// }
+// return max;
+// }
+//  console.log(Max(a))
 // const a= [1,3,4,5,]
 // const b= [3,4,6,7]
 // const c= [...new Set([...a,...b])]
