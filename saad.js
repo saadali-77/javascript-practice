@@ -1,6 +1,6 @@
 
 
-const a= [1,3,4,2,1,9,5,6]
+const a= [1,3,4,2,8,9,5,6]
 const b= a.sort((a,b)=>a-b)
 console.log(b)
 
