@@ -1,7 +1,27 @@
-const a= 'i am frontend developers';
-const b= a.split(' ').map(word=>word.charAt(0).toUpperCase()+ word.slice(1))
 
-console.log(b)
+
+let x= 3
+let y= x++
+console.log(x)
+
+// const a= [1,2,3,4]
+// const b= a.reduce((acc,curr)=>[curr,acc],[])
+// console.log(b)
+
+
+
+
+
+
+
+
+
+
+
+// const a= 'i am frontend developers';
+// const b= a.split(' ').map(word=>word.charAt(0).toUpperCase()+ word.slice(1))
+
+// console.log(b)
 
 
 
